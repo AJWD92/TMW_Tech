@@ -1,0 +1,17 @@
+{
+  "name": "devproject",
+  "version": "1.0.0",
+  "description": "TWM_Tech website",
+  "main": "index.js",
+  "homepage": "hhts://ajwd92.github.io/TMW_Tech",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o DevProject/css/ --recursive",
+    "deploy": "gh-pages -d DevProject"
+  },
+  "author": "Aaron Doran",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+  }
+}
